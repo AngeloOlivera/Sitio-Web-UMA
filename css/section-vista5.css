@@ -1,0 +1,64 @@
+section .container-rectangulo {
+    background: linear-gradient(180deg,
+            rgb(238, 154, 229) 0%,
+            rgb(89, 97, 249) 100%);
+    border: 1px none;
+    border-radius: 50px 50px 50px 50px;
+}
+
+section .container-rectangulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 70px;
+    color: aliceblue;
+}
+
+section .container-rectangulo .left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4em;
+    justify-content: space-evenly;
+}
+
+section .container-rectangulo .left h1 {
+    font-size: 40px;
+    overflow-wrap: break-word;
+}
+
+section .container-rectangulo .left button,
+.container-navbar .right button {
+    font-size: 14px;
+    color: inherit;
+    padding: 1.4em;
+    border-radius: 0.3em;
+    width: 12em;
+    border: 1px solid #ccc;
+    font-weight: 600;
+}
+
+section .container-rectangulo .left button.active {
+    background-color: rgb(219, 129, 253);
+}
+
+section .container-rectangulo .left button:hover {
+    background-color: rgb(219, 129, 253);
+    cursor: pointer;
+}
+
+section .container-rectangulo .left button,
+.container-navbar .right button {
+    background-color: transparent;
+}
+
+section .container-rectangulo .right {
+    width: 40%;
+    margin-left: 120px;
+}
+
+section .container-rectangulo .right img {
+    width: 80%;
+}

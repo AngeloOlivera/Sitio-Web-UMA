@@ -1,0 +1,55 @@
+.container-vista2 {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.container-vista2 .box {
+    width: 360px;
+    height: 450px;
+    box-shadow: 2px 20px 30px rgba(151, 151, 151, 0.1);
+    padding: 3em;
+    border-radius: 30px;
+    align-self: flex-start;
+}
+
+.container-vista2 .box:nth-child(3) {
+    align-self: flex-end;
+    margin-top: 100px;
+}
+
+.container-vista2 .box img {
+    width: 100%;
+}
+
+.container-vista2 .box p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-vista2 .box-main {
+    display: initial;
+    border-radius: initial;
+    box-shadow: none;
+    inline-size: 470px;
+    overflow-wrap: break-word;
+}
+
+.container-vista2 .box-main h1 {
+    font-size: 65px;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom: .3em;
+}
+
+.container-vista2 .box-main p {
+    font-size: 18px;
+    font-weight: initial;
+}

@@ -1,0 +1,71 @@
+.rectangle {
+  background: linear-gradient(180deg,
+      rgb(238, 154, 229) 0%,
+      rgb(89, 97, 249) 100%);
+  border: 1px none;
+  border-radius: 48px 48px 300px 48px;
+  height: 720px;
+  width: 100%;
+  height: 580px;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  color: aliceblue;
+}
+
+.rectangle .left {
+  width: 60%;
+  height: 67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.rectangle .left h1 {
+  font-size: 60px;
+  overflow-wrap: break-word;
+}
+
+.rectangle .left button{
+  font-size: 14px;
+  color: inherit;
+  padding: 0.8em;
+  border-radius: 0.3em;
+  width: 10em;
+  border: 1px solid #ccc;
+  font-weight: 600;
+}
+
+.rectangle .left button.btnInscribete {
+  background-color: rgb(219, 129, 253);
+}
+
+.rectangle .left button:hover {
+  background-color: rgb(219, 129, 253);
+  cursor: pointer;
+}
+
+.rectangle .left button,
+.container-navbar .right button {
+  background-color: transparent;
+}
+
+.right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rectangle .right {
+  width: 40%;
+  margin-right: 60px;
+}
+
+.rectangle .right img {
+  margin-top: -20%;
+  width: 110%;
+}

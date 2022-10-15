@@ -1,0 +1,29 @@
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+header{
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+nav{
+  width: 95%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main{
+  position: relative;
+  width: 95%;
+  margin: 2em auto;
+}
+section{
+  position: relative;
+  width: 95%;
+  margin: 2em auto;
+}

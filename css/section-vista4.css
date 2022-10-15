@@ -1,0 +1,191 @@
+.container-vista4 {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.container-vista4 .up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin: 4em;
+}
+
+.container-vista4 .up h1 {
+    font-size: 34px;
+}
+
+.container-vista4 .up p {
+    inline-size: 620px;
+    overflow-wrap: break-word;
+    text-align: center;
+    color: #010851;
+    font-size: 14px;
+}
+
+.container-vista4 .up .tipo-plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.container-vista4 .down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+.container-vista4 .down .box {
+    padding: 90px 40px;
+    border-radius: 13px;
+    box-shadow: 2px 20px 30px rgba(151, 151, 151, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    flex-direction: column;
+    width: 30%;
+}
+
+.container-vista4 .down .box h1 {
+    color: #010851;
+    font-size: 26px;
+}
+
+.container-vista4 .down .box p {
+    color: #010851;
+    font-size: 14px;
+    inline-size: 220px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.container-vista4 .down .box .precio .main {
+    color: #ED80FD;
+    margin-right: 20px;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.container-vista4 .down .box .txt-planes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5em;
+    color: #010851;
+}
+
+.container-vista4 .down .box .txt-planes ul li {
+    margin: 0;
+    color: #010851;
+    font-weight: 700;
+}
+
+.container-vista4 .down .box .txt-planes ul li.yes {
+    padding: 0px 30px;
+    list-style: none;
+    background-image: url("../img/Ellipse\ 3@2x.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+
+
+.container-vista4 .down .box .txt-planes ul li.no {
+    padding: 0px 30px;
+    list-style: none;
+    background-image: url("../img/Ellipse\ 4@2x.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+
+.container-vista4 .down .box button {
+    background-color: transparent;
+    width: 160px;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #ED80FD;
+    font-weight: 700;
+    border: 1px solid #ED80FD;
+}
+.container-vista4 .down .box button.btn2{
+    background-color: rgb(219, 129, 253);
+    color: white;
+
+}
+
+.container-vista4 .down .box button:hover {
+    background-color: #ED80FD;
+    color: white;
+    cursor: pointer;
+}
+
+/* Button Switch Style */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 22px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FADFFE;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #ED80FD;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #ED80FD;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

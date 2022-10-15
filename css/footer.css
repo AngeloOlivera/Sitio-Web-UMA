@@ -1,0 +1,92 @@
+footer{
+    position: relative;
+    width: 100%;
+    background-color: #010851;
+    color: white;
+}
+
+footer .container-footer {
+    width: 90%;
+    margin: auto;
+}
+
+footer .container-footer .main {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    margin: auto;
+    padding: 4em;
+}
+
+footer .container-footer .main .informacion {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+}
+
+footer .container-footer .main .informacion img {
+    width: 20%;
+    -webkit-filter: grayscale(100%), brightness(200%);
+    filter: grayscale(100%);
+}
+
+footer .container-footer .main .informacion input[type="text"] {
+    padding: 14px;
+    color: #010851;
+    background-color: #ccc;
+    border-radius: 10px;
+    width: 22em;
+    font-weight: 500;
+}
+
+footer .container-footer .main .informacion p {
+    font-size: 12px;
+}
+
+footer .container-footer .main .informacion button {
+    padding: 14px;
+    color: white;
+    background-color: #ED80FD;
+    border-radius: 10px;
+    width: 12em;
+    font-weight: 500;
+}
+
+footer .container-footer .main .plataforma ul,
+footer .container-footer .main .ayuda ul,
+footer .container-footer .main .contacto ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1em;
+}
+
+footer .container-footer .main .plataforma ul li:nth-child(1),
+footer .container-footer .main .ayuda ul li:nth-child(1),
+footer .container-footer .main .contacto ul li:nth-child(1) {
+    font-weight: 700;
+}
+
+footer .container-footer .secondary {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+footer .container-footer .secondary .rds {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 1em;
+}
+
+footer .container-footer .secondary .rds i {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    color: #010851;
+    border-radius: 100%;
+    font-size: 12px;
+    padding: 2px 4px;
+}
